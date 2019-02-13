@@ -1,0 +1,15 @@
+[0m[[0m[31merror[0m] [0m[0m/home/lwisniewski/IdeaProjects/poker-akka/src/main/scala/main/Main.scala:10:26: object akkahttpjson4s is not a member of package de.heikoseeberger[0m
+[0m[[0m[31merror[0m] [0m[0mimport de.heikoseeberger.akkahttpjson4s.Json4sSupport[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lwisniewski/IdeaProjects/poker-akka/src/main/scala/main/Main.scala:17:42: not found: type Json4sSupport[0m
+[0m[[0m[31merror[0m] [0m[0mobject WebServer extends Directives with Json4sSupport {[0m
+[0m[[0m[31merror[0m] [0m[0m                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lwisniewski/IdeaProjects/poker-akka/src/main/scala/main/Main.scala:54:41: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : WebServer.Item[0m
+[0m[[0m[31merror[0m] [0m[0m required: akka.http.scaladsl.marshalling.ToResponseMarshallable[0m
+[0m[[0m[31merror[0m] [0m[0m            case Some(item) => complete(item)[0m
+[0m[[0m[31merror[0m] [0m[0m                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/lwisniewski/IdeaProjects/poker-akka/src/main/scala/main/Main.scala:61:22: could not find implicit value for parameter um: akka.http.scaladsl.unmarshalling.FromRequestUnmarshaller[WebServer.Order][0m
+[0m[[0m[31merror[0m] [0m[0m            entity(as[Order]) { order =>[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m

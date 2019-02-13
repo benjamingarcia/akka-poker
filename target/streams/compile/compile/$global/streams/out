@@ -1,15 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0m/home/lwisniewski/IdeaProjects/poker-akka/src/main/scala/main/Main.scala:10:26: object akkahttpjson4s is not a member of package de.heikoseeberger[0m
-[0m[[0m[31merror[0m] [0m[0mimport de.heikoseeberger.akkahttpjson4s.Json4sSupport[0m
-[0m[[0m[31merror[0m] [0m[0m                         ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/lwisniewski/IdeaProjects/poker-akka/src/main/scala/main/Main.scala:17:42: not found: type Json4sSupport[0m
-[0m[[0m[31merror[0m] [0m[0mobject WebServer extends Directives with Json4sSupport {[0m
-[0m[[0m[31merror[0m] [0m[0m                                         ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/lwisniewski/IdeaProjects/poker-akka/src/main/scala/main/Main.scala:54:41: type mismatch;[0m
-[0m[[0m[31merror[0m] [0m[0m found   : WebServer.Item[0m
-[0m[[0m[31merror[0m] [0m[0m required: akka.http.scaladsl.marshalling.ToResponseMarshallable[0m
-[0m[[0m[31merror[0m] [0m[0m            case Some(item) => complete(item)[0m
-[0m[[0m[31merror[0m] [0m[0m                                        ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/lwisniewski/IdeaProjects/poker-akka/src/main/scala/main/Main.scala:61:22: could not find implicit value for parameter um: akka.http.scaladsl.unmarshalling.FromRequestUnmarshaller[WebServer.Order][0m
-[0m[[0m[31merror[0m] [0m[0m            entity(as[Order]) { order =>[0m
-[0m[[0m[31merror[0m] [0m[0m                     ^[0m
-[0m[[0m[31merror[0m] [0m[0mfour errors found[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/benji/dev/projet/perso/akka-poker/src/main/scala/spoker/Card.scala:8:13: non-variable type argument spoker.Rank.Value in type pattern (spoker.Rank.Value, spoker.Suit.Value) (the underlying of spoker.CardTuple) is unchecked since it is eliminated by erasure[0m
+[0m[[0m[33mwarn[0m] [0m[0m    case t: CardTuple => toTuple(this) equals t[0m
+[0m[[0m[33mwarn[0m] [0m[0m            ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m

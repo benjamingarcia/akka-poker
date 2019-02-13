@@ -1,4 +1,0 @@
-[0m[[0m[33mwarn[0m] [0m[0m/home/benji/dev/projet/perso/akka-poker/src/main/scala/spoker/Card.scala:8:13: non-variable type argument spoker.Rank.Value in type pattern (spoker.Rank.Value, spoker.Suit.Value) (the underlying of spoker.CardTuple) is unchecked since it is eliminated by erasure[0m
-[0m[[0m[33mwarn[0m] [0m[0m    case t: CardTuple => toTuple(this) equals t[0m
-[0m[[0m[33mwarn[0m] [0m[0m            ^[0m
-[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
